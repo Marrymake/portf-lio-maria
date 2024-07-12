@@ -1,0 +1,58 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: burlywood;
+    font-size: 1.875rem; /* 1.875rem é equivalente a 30px */
+    background-image: url('imagem/dourado.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.cabecalho {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-cabecalho {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.conteudo {
+    margin: 20px 0;
+}
+
+.sobre-mim, .formacao {
+    max-width: 800px;
+    margin: 20px;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 1.25rem; /* Ajustar o tamanho da fonte para 20px em telas menores */
+    }
+    .cabecalho, .sobre-mim, .formacao {
+        padding: 10px;
+    }
+    .img-cabecalho {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+
+
+       
